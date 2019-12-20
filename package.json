@@ -41,6 +41,7 @@
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
     "qrcode": "^1.4.4",
+    "qrcode-image-parser": "^1.0.4",
     "react": "^16.12.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.1.3",
@@ -50,6 +51,7 @@
   "peerDependencies": {
     "@types/qrcode": "^1.3.4",
     "qrcode": "^1.4.4",
+    "qrcode-image-parser": "^1.0.4",
     "react": ">=16.8.0"
   },
   "lint-staged": {
