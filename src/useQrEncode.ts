@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import QrCode, { QRCodeSegment, QRCodeOptions } from 'qrcode';
 
-export const useEncode = (
+export const useQrEncode = (
   text: string | QRCodeSegment[],
   options: QRCodeOptions
 ) => {

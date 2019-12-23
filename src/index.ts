@@ -1,2 +1,2 @@
-export { useEncode } from './useEncode';
-export { useDecode } from './useDecode';
+export { useQrEncode } from './useQrEncode';
+export { useQrDecode } from './useQrDecode';
