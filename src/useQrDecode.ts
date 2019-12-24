@@ -6,8 +6,6 @@ export const useQrDecode = (data: string | WindowBase64) => {
 
   useEffect(() => {
     Parser.parse(data, (err: any, parsed: any) => {
-      // console.log(err, parsed);
-
       setText(parsed);
     });
   }, [data]);
