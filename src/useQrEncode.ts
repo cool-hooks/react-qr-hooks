@@ -3,7 +3,7 @@ import QrCode, { QRCodeSegment, QRCodeOptions } from 'qrcode';
 
 export const useQrEncode = (
   text: string | QRCodeSegment[],
-  options: QRCodeOptions
+  options: QRCodeOptions = {}
 ) => {
   const [qrCode, setQrCode] = useState<string | null>(null);
 

@@ -1,7 +1,7 @@
 {
   "name": "react-qr-hooks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Encode & decode QR code in React",
   "author": "Jakub Biesiada",
   "license": "MIT",
   "main": "lib/react-qr-hooks.cjs.js",
