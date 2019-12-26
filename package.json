@@ -8,9 +8,11 @@
   "module": "lib/react-qr-hooks.esm.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "release": "rimraf lib/* && npm run prettier && npm run lint && npm run build",
-    "build": "rollup -c",
+    "release": "rimraf lib/* && npm run prettier && npm run lint && npm run build:dev && npm run build",
+    "build": "webpack --env build",
+    "build:dev": "webpack --env dev",
     "watch": "npm run build -- --watch",
+    "watch:dev": "npm run build:dev -- --watch",
     "lint": "eslint 'src/**/*.ts' --fix",
     "prettier": "prettier --write 'src/**/*.ts'"
   },
@@ -29,12 +31,11 @@
   },
   "homepage": "https://github.com/JB1905/react-qr-hooks#readme",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^6.0.0",
     "@types/qrcode": "^1.3.4",
     "@types/react": "^16.9.17",
-    "@typescript-eslint/parser": "^2.12.0",
+    "@typescript-eslint/parser": "^2.13.0",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-prettier": "^6.8.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
@@ -44,9 +45,10 @@
     "qrcode": "^1.4.4",
     "qrcode-image-parser": "^1.0.4",
     "react": "^16.12.0",
-    "rollup-plugin-terser": "^5.1.3",
-    "rollup-plugin-typescript2": "^0.25.3",
-    "typescript": "^3.7.4"
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   },
   "peerDependencies": {
     "qrcode": "^1.4.4",
