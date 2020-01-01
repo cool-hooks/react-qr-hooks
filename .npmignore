@@ -1,6 +1,7 @@
 src
 
 tsconfig.json
+.travis.yml
 .prettierrc
 
 .eslintrc.js
