@@ -16,7 +16,7 @@ module.exports = env => {
   return {
     mode,
     entry: `${__dirname}/src/index.ts`,
-    externals: ['qrcode', 'qrcode-image-parser', 'react'],
+    externals: ['qrcode', 'react'],
     devtool,
     output: {
       path: `${__dirname}/lib`,
