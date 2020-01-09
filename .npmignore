@@ -6,5 +6,6 @@ tsconfig.json
 
 .eslintrc.js
 /index.d.ts
-webpack.config.js
+rollup.config.js
 yarn-error.log
+.rpt2_cache
