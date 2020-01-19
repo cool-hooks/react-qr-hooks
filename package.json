@@ -53,6 +53,11 @@
     "qrcode-decoder": "^0.1.2",
     "react": ">=16.8.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*.{ts}": [
       "npm run prettier",
