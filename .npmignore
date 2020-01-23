@@ -5,7 +5,7 @@ tsconfig.json
 .prettierrc
 
 .eslintrc.js
-/index.d.ts
+global.d.ts
 rollup.config.js
 yarn-error.log
 .rpt2_cache
