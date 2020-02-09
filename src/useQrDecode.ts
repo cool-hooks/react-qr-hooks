@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import QrcodeDecoder from 'qrcode-decoder';
 
-export const useQrDecode = (data: string | WindowBase64) => {
+export const useQrDecode = (data: string) => {
   const [text, setText] = useState<string | null>(null);
 
   useEffect(() => {

@@ -32,20 +32,21 @@ Name | Type | Default | Description
 **options** | QRCodeOptions | `{}` | Options for `qrcode` library
 
 #### Returned Values
-Name | Type | Description
--|-|-
-**qrCode** | string | Encoded value
+Type | Description
+-|-
+string | Encoded value
 
 ### useQrDecode
 
 #### Options
 Name | Type | Default | Description
 -|-|-|-
+**data** | string | ` ` | An image from url or an `<img>` element with a src attribute set
 
 #### Returned Values
-Name | Type | Description
--|-|-
-decoded value | string | value decoded from QR code
+Type | Description
+-|-
+string | value decoded from QR code
 
 ## Example
 ```js
