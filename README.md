@@ -42,6 +42,7 @@ string | Encoded value
 Name | Type | Default | Description
 -|-|-|-
 **data** | string | ` ` | An image from url or an `<img>` element with a src attribute set
+**options** | object | `{}` | Options for `qrcode-decoder` library
 
 #### Returned Values
 Type | Description

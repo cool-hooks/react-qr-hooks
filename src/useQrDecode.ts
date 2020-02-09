@@ -1,16 +1,18 @@
 import { useState, useEffect } from 'react';
 import QrcodeDecoder from 'qrcode-decoder';
 
-export const useQrDecode = (data: string) => {
+export const useQrDecode = (data: string, options: object = {}) => {
   const [text, setText] = useState<string | null>(null);
 
   useEffect(() => {
-    const qr = new QrcodeDecoder();
+    if (data) {
+      const qr = new QrcodeDecoder();
 
-    qr.decodeFromImage(data).then((res: any) => {
-      setText(res.data);
-    });
-  }, [data]);
+      qr.decodeFromImage(data, options).then((res: any) => {
+        setText(res.data);
+      });
+    }
+  }, [data, options]);
 
   return text;
 };

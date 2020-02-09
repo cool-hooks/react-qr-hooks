@@ -1,1 +1,1 @@
-export declare const useQrDecode: (data: string | WindowBase64) => string | null;
+export declare const useQrDecode: (data: string, options?: object) => string | null;
