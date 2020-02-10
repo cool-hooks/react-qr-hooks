@@ -1,5 +1,9 @@
 # react-qr-hooks Changelog
 
+## 1.0.2 (2020-02-10)
+#### Repository Changes
+- moved `qrcode` and `qrcode-decoder` from `peerDependencies` to `dependencies`
+
 ## 1.0.1 (2020-02-10)
 #### New Feature
 - added `useQrDecode` hook
