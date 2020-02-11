@@ -18,7 +18,7 @@ $ yarn add react-qr-hooks
 ```
 
 ## Getting Started
-**• Import hook in React application file:**
+**• Import hooks in React application file:**
 ```js
 import { useQrEncode, useQrDecode } from 'react-qr-hooks';
 ```
