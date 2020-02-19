@@ -29,7 +29,7 @@ import { useQrEncode, useQrDecode } from 'react-qr-hooks';
 Name | Type | Default | Description
 -|-|-|-
 **text** | string | ` ` | Text to encode
-**options** | QRCodeOptions | `{}` | Options for `qrcode` library
+**options** | QRCodeToDataURLOptions | `{}` | Options for `qrcode` library
 
 #### Returned Values
 Type | Description

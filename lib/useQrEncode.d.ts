@@ -1,2 +1,2 @@
 import QrCode from 'qrcode';
-export declare const useQrEncode: (text: string | QrCode.QRCodeSegment[], options?: QrCode.QRCodeOptions) => string | null;
+export declare const useQrEncode: (text: string | QrCode.QRCodeSegment[], options?: QrCode.QRCodeToDataURLOptions) => string | null;

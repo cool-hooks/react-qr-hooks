@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import QrCode, { QRCodeSegment, QRCodeOptions } from 'qrcode';
+import QrCode, { QRCodeSegment, QRCodeToDataURLOptions } from 'qrcode';
 
 export const useQrEncode = (
   text: string | QRCodeSegment[],
-  options: QRCodeOptions = {}
+  options: QRCodeToDataURLOptions = {}
 ) => {
   const [qrCode, setQrCode] = useState<string | null>(null);
 
