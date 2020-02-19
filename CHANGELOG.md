@@ -1,7 +1,7 @@
 # react-qr-hooks Changelog
 
-## 1.0.3 / 1.0.4 (2020-02-19)
-## Bug Fix
+## 1.0.3 / 1.0.4 / 1.0.5 (2020-02-19)
+#### Bug Fix
 - fixed TypeScript types
 
 ## 1.0.2 (2020-02-10)
