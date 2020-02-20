@@ -55,9 +55,9 @@ import React from 'react';
 import { useQrEncode, useQrDecode } from 'react-qr-hooks';
 
 const App = () => {
-  const encoded = useQrEncode('Hello world!');
+  const encoded = useQrEncode('Hello world!', /* object with options (if needed) */);
 
-  const decoded = useQrDecode(encoded);
+  const decoded = useQrDecode(encoded, /* object with options (if needed) */);
 
   return (
     <>
