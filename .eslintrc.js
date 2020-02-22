@@ -7,7 +7,8 @@ module.exports = {
   ],
   plugins: ['prettier', 'react-hooks'],
   env: {
-    browser: true
+    browser: true,
+    jest: true
   },
   parserOptions: {
     ecmaVersion: 6,
