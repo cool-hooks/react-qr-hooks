@@ -10,17 +10,17 @@ export default {
     {
       file: pkg.main,
       format: 'cjs',
-      sourcemap: true
+      sourcemap: true,
     },
     {
       file: pkg.module,
       format: 'es',
-      sourcemap: true
-    }
+      sourcemap: true,
+    },
   ],
   plugins: [resolve(), typescript(), terser()],
   external: [
     ...Object.keys(pkg.dependencies),
-    ...Object.keys(pkg.peerDependencies)
-  ]
+    ...Object.keys(pkg.peerDependencies),
+  ],
 };
