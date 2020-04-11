@@ -1,5 +1,9 @@
 # react-qr-hooks Changelog
 
+## 1.0.7 (2020-04-11)
+#### Repository Changes
+- updated devDependencies
+
 ## 1.0.6 (2020-02-24)
 #### Documentation
 - updated README.md
