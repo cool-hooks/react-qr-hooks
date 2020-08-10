@@ -1,7 +1,10 @@
 # [react-qr-hooks](https://github.com/cool-hooks/react-qr-hooks)
 
-[![NPM version](http://img.shields.io/npm/v/react-qr-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
-[![NPM downloads](http://img.shields.io/npm/dm/react-qr-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
+[![NPM version](http://img.shields.io/npm/v/react-qr-hooks?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
+[![NPM downloads](http://img.shields.io/npm/dm/react-qr-hooks?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
+[![NPM license](https://img.shields.io/npm/l/react-qr-hooks?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
+[![Travis](https://img.shields.io/travis/cool-hooks/react-qr-hooks/master?style=flat-square)](https://travis-ci.org/cool-hooks/react-qr-hooks)
+[![Bundle size](https://img.shields.io/bundlephobia/min/react-qr-hooks?style=flat-square)](https://bundlephobia.com/result?p=react-qr-hooks)
 
 ## About
 
