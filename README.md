@@ -10,6 +10,12 @@
 
 Encode & decode QR code in React
 
+### Similar Projects
+
+- [react-use-qrcode](https://github.com/pocesar/react-use-qrcode/) by [Paulo Cesar](https://github.com/pocesar/)
+- [react-qr-reader](https://github.com/JodusNodus/react-qr-reader/) by [Thomas Billiet](https://github.com/JodusNodus/)
+- [qrcode](https://github.com/soldair/node-qrcode/) by [Ryan Day](https://github.com/soldair/)
+
 ## How to Install
 
 First, install the library in your project by npm:
@@ -38,7 +44,7 @@ import { useQrEncode, useQrDecode } from 'react-qr-hooks';
 
 | Name        | Type                   | Default | Description                  |
 | ----------- | ---------------------- | ------- | ---------------------------- |
-| **text**    | string                 | ``      | Text to encode               |
+| **text**    | string                 | ` `     | Text to encode               |
 | **options** | QRCodeToDataURLOptions | `{}`    | Options for `qrcode` library |
 
 #### Returned Values
@@ -53,7 +59,7 @@ import { useQrEncode, useQrDecode } from 'react-qr-hooks';
 
 | Name        | Type   | Default | Description                                                      |
 | ----------- | ------ | ------- | ---------------------------------------------------------------- |
-| **data**    | string | ``      | An image from url or an `<img>` element with a src attribute set |
+| **data**    | string | ` `     | An image from url or an `<img>` element with a src attribute set |
 | **options** | object | `{}`    | Options for `qrcode-decoder` library                             |
 
 #### Returned Values
