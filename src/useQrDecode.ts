@@ -8,9 +8,11 @@ export const useQrDecode = (data: string, options: object = {}) => {
     if (data) {
       const qr = new QrcodeDecoder();
 
-      qr.decodeFromImage(data, options).then((res: any) => {
-        setText(res.data);
-      });
+      qr.decodeFromImage(data, options).then(
+        (res: { readonly data: string }) => {
+          setText(res.data);
+        }
+      );
     }
   }, [data, options]);
 
