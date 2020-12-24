@@ -1,11 +1,21 @@
-# [react-qr-hooks](https://github.com/jb1905/react-qr-hooks)
+# [react-qr-hooks](https://github.com/cool-hooks/react-qr-hooks)
 
-[![NPM version](http://img.shields.io/npm/v/react-qr-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
-[![NPM downloads](http://img.shields.io/npm/dm/react-qr-hooks.svg?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
+[![NPM version](https://img.shields.io/npm/v/react-qr-hooks?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
+[![NPM downloads](https://img.shields.io/npm/dm/react-qr-hooks?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
+[![NPM license](https://img.shields.io/npm/l/react-qr-hooks?style=flat-square)](https://www.npmjs.com/package/react-qr-hooks)
+[![Codecov](https://img.shields.io/codecov/c/github/cool-hooks/react-qr-hooks?style=flat-square)](https://codecov.io/gh/cool-hooks/react-qr-hooks)
+[![Travis](https://img.shields.io/travis/cool-hooks/react-qr-hooks/master?style=flat-square)](https://travis-ci.org/cool-hooks/react-qr-hooks)
+[![Bundle size](https://img.shields.io/bundlephobia/min/react-qr-hooks?style=flat-square)](https://bundlephobia.com/result?p=react-qr-hooks)
 
 ## About
 
 Encode & decode QR code in React
+
+### Similar Projects
+
+- [react-use-qrcode](https://github.com/pocesar/react-use-qrcode/) by [Paulo Cesar](https://github.com/pocesar/)
+- [react-qr-reader](https://github.com/JodusNodus/react-qr-reader/) by [Thomas Billiet](https://github.com/JodusNodus/)
+- [qrcode](https://github.com/soldair/node-qrcode/) by [Ryan Day](https://github.com/soldair/)
 
 ## How to Install
 
@@ -66,9 +76,11 @@ import React from 'react';
 import { useQrEncode, useQrDecode } from 'react-qr-hooks';
 
 const App = () => {
-  const encoded = useQrEncode('Hello world!', /* object with options (if needed) */);
+  const encoded = useQrEncode(
+    'Hello world!' /* object with options (if needed) */
+  );
 
-  const decoded = useQrDecode(encoded, /* object with options (if needed) */);
+  const decoded = useQrDecode(encoded /* object with options (if needed) */);
 
   return (
     <>
