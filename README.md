@@ -13,7 +13,7 @@ Encode & decode QR code in React
 
 ### Demo
 
-<!-- TODO -->
+**[Playground – play with library in CodeSandbox](https://codesandbox.io/s/react-qr-hooks-7iv35)**
 
 ### Similar Projects
 
