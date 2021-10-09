@@ -11,6 +11,10 @@
 
 Encode & decode QR code in React
 
+### Demo
+
+**[Playground – play with library in CodeSandbox](https://codesandbox.io/s/react-qr-hooks-7iv35)**
+
 ### Similar Projects
 
 - [react-use-qrcode](https://github.com/pocesar/react-use-qrcode/) by [Paulo Cesar](https://github.com/pocesar/)
